@@ -1,0 +1,9 @@
+.hero{
+    background-color: rgba(114, 126, 189, 0.463);
+}
+
+.weatherCard{
+    display: flex;
+    flex-wrap: wrap;
+
+}
