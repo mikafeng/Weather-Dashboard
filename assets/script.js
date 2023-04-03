@@ -73,7 +73,7 @@ function getWeather () {
 //Use 5day 3Hr API to pull data for 5day forecast of input city
 function getForecast () {
     let city = document.getElementById("city-search").value;
-    let queryUrl = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=${units}&appid=${weatherAPIkey}`;
+    let queryUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=${units}&appid=${weatherAPIkey}`;
     
 
     fetch(queryUrl)
